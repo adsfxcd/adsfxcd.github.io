@@ -1,0 +1,45 @@
+:root {
+  --text: #111;
+  --muted: #333;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC",
+               "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+  color: var(--text);
+  background: #fff;
+}
+
+.page {
+  max-width: 980px;
+  padding: 48px 40px;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  margin: 0 0 28px 0;
+}
+
+.info p {
+  font-size: 22px;
+  line-height: 1.8;
+  margin: 8px 0;
+  color: var(--muted);
+}
+
+.label {
+  font-weight: 700;
+  color: var(--text);
+}
+
+a {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid #ddd;
+}
+a:hover {
+  border-bottom-color: #999;
+}
